@@ -1,0 +1,12 @@
+"use strict";
+let userId;
+let fullName;
+let firstName;
+let lastName;
+let isActivated;
+userId = 101;
+firstName = "Towfiqul";
+lastName = "Islam";
+isActivated = true;
+fullName = firstName.concat(lastName);
+console.log(`userId: ${userId}, firstName: ${firstName}, lastName: ${lastName}, fullName: ${fullName} isActivated: ${isActivated}`);
